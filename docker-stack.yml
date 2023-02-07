@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+    swarm-demo:
+        image: swarm-demo
+        deploy:
+            replicas: 5
