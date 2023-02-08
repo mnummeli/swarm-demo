@@ -5,3 +5,5 @@ services:
         image: swarm-demo
         deploy:
             replicas: 5
+        ports:
+            - "3000:3000"
